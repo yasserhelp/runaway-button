@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at center, #0f172a, #1e293b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#runaway-btn {
+  position: absolute;
+  background: linear-gradient(90deg, #00eaff, #ff00c8);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 25px rgba(0, 234, 255, 0.5);
+}
+
+#runaway-btn:hover {
+  box-shadow: 0 0 40px rgba(255, 0, 200, 0.8);
+}
